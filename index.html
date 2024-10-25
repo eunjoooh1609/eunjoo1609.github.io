@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eunjoo Oh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Eunjoo Oh</h1>
+        </header>
+        <section class="intro">
+            <p>Eunjoo Oh is an educator and learning science researcher specializing in the transformative impact
+                of AI adoption on education across higher education, post-secondary education, and K-12 settings.
+                She earned her Master of Education (M.Ed.) from the University of Pittsburgh and
+                her Bachelor of Science (B.S.) from Ewha Womans University. With practical experience
+                teaching middle school students, Eunjoo leverages her background to explore how educational
+                methodologies related to spatial cognitive abilities contribute to STEM education.
+            </p>
+        </section>
+        <div class="content">
+            <div class="news">
+                <!-- 뉴스 헤더와 페이지네이션을 묶은 div -->
+                <div class="news-header">
+                    <h2>Works</h2>
+                    <div class="pagination-inline">
+                        <button id="prevBtn" onclick="prevPage()">Prev</button>
+                        <span id="pageIndicator">1/1</span>
+                        <button id="nextBtn" onclick="nextPage()">Next</button>
+                    </div>
+                </div>
+
+                <a href="https://tadjournal.org/" class="news-item" target="_blank" rel="noopener noreferrer">
+                    <img src="imgs/image_01.jpg">
+                    <div class="news-text">
+                        <strong>Pedagogy Explorations into Alternative Use of Generative AI in Design Studios</strong>
+                        <em>Accepted in TECHNOLOGY | ARCHITECTURE + DESIGN Journal</em>
+                        <p>This exploratory study looks at how generative AI can expand student engagement in architectural design studios. It moves beyond simple design automation, focusing on active interaction between students and AI, offering new perspectives on design pedagogy.</p>
+                        <date>Oct. 2024</date>
+                    </div>
+                </a>
+
+                <a href="https://iated.org/iceri/publications" class="news-item" target="_blank" rel="noopener noreferrer">
+                    <img src="imgs/image_02.jpg">
+                    <div class="news-text">
+                        <strong>Integrating AI in Apprenticeship-Based Creative Education: An Ethnographic Case Study of an Architectural Studio</strong>
+                        <em>Accepted in International Conference of Education, Research and Innovation. Sep.2024</em>
+                        <p>This study examines AI integration in architectural design education through ethnographic analysis. It reveals how AI serves as a tool to restructure and advance knowledge while promoting critical discourse and collaboration in design education. The study also highlights challenges such as resource sufficiency and the need for ethical considerations in AI use.</p>
+                        <date>Sep. 2024</date>
+                    </div>
+                </a>
+
+                <a href="https://cies.us/" class="news-item" target="_blank" rel="noopener noreferrer">
+                    <img src="imgs/image_03.jpg">
+                    <div class="news-text">
+                        <strong>Is AI Education Limited to Computer-based Methods, or Can It Transcend This Boundary?</strong>
+                        <em>Accepted in Comparative & International Education Society 2025. Sep. 2024</em>
+                        <p>This presentation explores how AI education can move beyond high-performance computing requirements. It introduces a hands-on, manual computing approach used in a graduate architecture course at the University of Calgary, where students manually performed AI exercises without computers, deepening their understanding of AI concepts and promoting inclusivity in education.</p>
+                        <date>Sep. 2024</date>
+                    </div>
+                </a>
+
+                <a href="https://upcsk5.net/" class="news-item">
+                    <img src="imgs/image_04.jpg" alt="Culturally Responsive Curriculum Committee">
+                    <div class="news-text">
+                        <strong>Culturally Responsive Curriculum Committee Member</strong>
+                        <em>Urban Pathways K-5 College Charter School, Pittsburgh, PA, USA</em>
+                        <p>Contributed to developing a culturally responsive curriculum, fostering inclusivity and diversity in the educational framework for K-5 students.</p>
+                        <date>May. 2021</date>
+                    </div>
+                </a>
+
+                <a href="#" class="news-item">
+                    <img src="imgs/image_09.jpg" alt="Global Studies Certificate, University of Pittsburgh">
+                    <div class="news-text">
+                        <strong>Global Studies Certificate</strong>
+                        <em>University of Pittsburgh, Pittsburgh, PA, USA</em>
+                        <p>Earned the Global Studies Certificate, recognizing a comprehensive understanding of global issues and interdisciplinary studies focused on international relations, cultures, and global perspectives.</p>
+                        <date>May. 2021</date>
+                    </div>
+                </a>
+
+                <a href="https://pittasia.wordpress.com/" class="news-item">
+                    <img src="imgs/image_07.jpg" alt="POSCO Korean Studies Scholarship">
+                    <div class="news-text">
+                        <strong>POSCO Korean Studies Scholarship</strong>
+                        <em>Asian Studies Center, University of Pittsburgh, Pittsburgh, PA, USA</em>
+                        <p>Awarded the prestigious POSCO scholarship for excellence in Korean studies, recognizing academic achievements and contributions to advancing the understanding of Korea's history, culture, and society.</p>
+                        <date>Feb. 2020</date>
+                    </div>
+                </a>
+
+                <a href="https://www.chatham.edu/mission-and-values/womens-leadership/index.html" class="news-item">
+                    <img src="imgs/image_05.jpg" alt="Gender Symposium Participant">
+                    <div class="news-text">
+                        <strong>Gender Symposium Participant</strong>
+                        <em>Chatham University, Pittsburgh, PA, USA</em>
+                        <p>Engaged in discussions and initiatives focusing on gender equity and inclusion, contributing to research and advocacy efforts in the academic community.</p>
+                        <date>Sep. 2019</date>
+                    </div>
+                </a>
+
+                <a href="https://ftcouch.uscsd.k12.pa.us/" class="news-item">
+                    <img src="imgs/image_06.jpg" alt="Guest Speaker at International Education Week">
+                    <div class="news-text">
+                        <strong>Guest Speaker, International Education Week</strong>
+                        <em>Fort Couch Middle School, Pittsburgh, PA, USA</em>
+                        <p>Delivered a talk on the importance of global education and cultural understanding, inspiring middle school students to embrace diversity and international perspectives.</p>
+                        <date>Dec. 2018</date>
+                    </div>
+                </a>
+
+                <a href="https://www.competitionsciences.org/competitions/intel-international-science-and-engineering-fair/" class="news-item">
+                    <img src="imgs/image_08.jpg" alt="STEM Class Mentor, Intell International Science and Engineering Fair">
+                    <div class="news-text">
+                        <strong>STEM Class Mentor</strong>
+                        <em>Intell International Science and Engineering Fair, Pittsburgh, PA, USA</em>
+                        <p>Guided students through complex STEM projects, providing mentorship and fostering innovation in science and engineering as part of the prestigious international science fair.</p>
+                        <date>May. 2018</date>
+                    </div>
+                </a>
+
+
+
+
+            </div>
+
+            <div class="etc">
+                <a href="Eunjoo_Oh_CV.pdf" class="etc-item" target="_blank" rel="noopener noreferrer">
+                    <div class="etc-text">
+                        <p>Download C.V.</p>
+                    </div>
+                </a>
+
+                <a href="mailto:eunjoo.oh@ucalgary.ca" class="etc-item">
+                    <div class="etc-text">
+                        <p>Send Email</p>
+                    </div>
+                </a>
+<!--                <h2>Works</h2>-->
+<!--                <ul>-->
+<!--                    <li>Research: Computational Urban Analysis</li>-->
+<!--                    <li>Project: Generative Systems for Design</li>-->
+<!--                </ul>-->
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
